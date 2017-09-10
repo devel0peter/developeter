@@ -139,11 +139,11 @@
                 <div class="row">
                       
                     <?php
-                        if($_GET['success'] == 1) {
+                        if(isset($_GET['success']) && $_GET['success'] == 1) {
                             echo "<div class=\"form-messages success\">Thank you! Your email has been sent.</div>";
                         }
 
-                        if($_GET['success'] == -1) {
+                        if(isset($_GET['success']) && $_GET['success'] == -1) {
                             echo "<div class=\"form-messages error\">Oops! Something went wrong, please try again.</div>";
                         }
                     ?>
