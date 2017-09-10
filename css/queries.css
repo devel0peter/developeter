@@ -1,0 +1,123 @@
+/* Big tablet to 1200px (widths smaller than the 1140px row) */
+@media only screen and (max-width: 1200px) {
+    .top {
+        max-width: 100%;
+        padding: 0 1%;
+    }
+    
+    .row {
+        max-width: 100%;
+        padding: 0 1%;
+    }
+    body section { padding: 60px 0; }
+}
+
+/* Small tablet to big tablet: from 768px to 1023px */
+@media only screen and (max-width: 1023px) {
+    body section {
+        padding: 40px 0;
+    }
+    
+    * { font-size: 18px; }
+    
+    body h1 {
+        font-size: 250%;
+        margin-bottom: 30px;
+    }
+    
+    body h2 {
+        font-size: 150%;
+        margin-bottom: 10px;
+    }
+    
+    .top ul { font-size: 80%; }
+    
+       
+    .portfolio .col {
+        margin: 0.5%;
+        width: 49%;
+    }
+    
+    .social img { width: 10%; }
+}
+
+/* Small phones to small tablets from 481px to 767px */
+@media only screen and (max-width: 767px) {
+    body section { padding: 20px 0; }
+    
+    * { font-size: 16px; }
+    
+    .top .intro-list li {
+        padding: 0 15px;
+    }
+    
+        
+    .portfolio .col {
+        width: 100%;
+        margin: 0;
+        margin-bottom: 3%;
+        padding: 0;
+    }
+    
+    #profile { display: none; }
+    
+    .biography {
+        width: 100%;
+        padding: 3%;
+        margin: auto;
+    }
+    
+        
+    .contact .col {
+        width: 100%;
+        text-align: center;
+        margin: auto;
+    }
+    
+    .social img { width: 7%; }
+    
+    .social { margin-top: 30px; }
+    
+    .social li { margin-left: 30%; }
+    
+    .skills li i {
+        font-size: 120%;
+        letter-spacing: 4px;
+        padding: 1px;
+    }
+    .skills li img {
+        width: 25%;
+    }
+    
+    body .footer-nav li {
+        margin: 1.5%;
+    }
+    
+}
+
+/* Small phones from 0 to 480px */
+@media only screen and (max-width: 480px) {
+    body section { padding: 10px 0; }
+    
+    * { font-size: 14px; }
+    
+    body h1 {
+        font-size: 250%;
+        margin-bottom: 15px;
+    }
+    
+    body h2 {
+        font-size: 120%;
+        margin-bottom: 10px;
+    }
+    
+    .top .intro-list li {
+        padding: 0 15px;
+        display: block;
+        border: 0;
+    }
+    
+    .skills li img {
+        width: 15%;
+    }
+}

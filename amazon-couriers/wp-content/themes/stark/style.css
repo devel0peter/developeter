@@ -1,0 +1,54 @@
+/*
+Theme Name: Pluto
+Author: Peter Acs
+Description: Basic WordPress Theme for Walentin Ltd
+Version: 0.0.1
+Tags: bootstrap, courier
+*/
+body {
+    background-color: #efefef;
+}
+.container {
+    min-height: 100vh;
+    background-color: white;
+}
+
+/*--- Header ---*/
+
+header {
+    height: 200px;
+    vertical-align: middle;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)), url("assets/img/header-background.jpg");
+    background-repeat: no-repeat;
+    background-position: right 20px top;
+    background-size: 65% 100%;
+    position: relative;
+}
+.navbar-brand {
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+    height: 150px;
+    width: 300px;
+    white-space: nowrap;
+    text-align: center;
+}
+.helper {
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+}
+#logo {
+    display: inline-block;
+    vertical-align: middle;
+    max-height: 150px;
+    max-width: 250px;
+}
+.content-area {
+    padding-left: 30px;
+}
+
+
+
+
+
