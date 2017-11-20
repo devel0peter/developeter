@@ -157,9 +157,9 @@
                 <div class="col span-1-of-2">
                     <ul class="footer-nav">
                         <li><a href="#" class="js--white">Home</a></li>
-                        <li><a href="#" class="js--white">Portfolio</a></li>
-                        <li><a href="#" class="js--white">About</a></li>
-                        <li><a href="#" class="js--white">Contact</a></li>
+                        <li><a href="#" class="js--portfolio-nav js--white">Portfolio</a></li>
+                        <li><a href="#" class="js--about-nav js--white">About</a></li>
+                        <li><a href="#" class="js--contact-nav js--white">Contact</a></li>
                     </ul>
                 </div>
                 
