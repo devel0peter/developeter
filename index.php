@@ -67,7 +67,7 @@
                            <li><img src="img/css3.png" alt="CSS logo"><i class="ion-ios-star"></i><i class="ion-ios-star"></i><i class="ion-ios-star"></i><i class="ion-ios-star-outline"></i><i class="ion-ios-star-outline"></i></li>
                            <li><img src="img/bootstrap.png" alt="Twitter Bootstrap logo"><i class="ion-ios-star"></i><i class="ion-ios-star"></i><i class="ion-ios-star-outline"></i><i class="ion-ios-star-outline"></i><i class="ion-ios-star-outline"></i></li>
                            <li><img src="img/javascript.png" alt="JavaScript logo"><i class="ion-ios-star"></i><i class="ion-ios-star"></i><i class="ion-ios-star-half"></i><i class="ion-ios-star-outline"></i><i class="ion-ios-star-outline"></i></li>
-                           i.imgur.com/qBQUUPf.jpg           </ul>
+                       </ul>
                 </div>
                     <div class="col span-1-of-2">
                       <ul class="skills">
